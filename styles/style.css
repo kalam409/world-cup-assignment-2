@@ -1,0 +1,64 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* google fonts added */
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Top-banner Section The Greatest show on the earth */
+/* .container-1{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
+.top-banner{
+    width: 1240px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+    margin-left: 5.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.banner-detail{
+    display: flex;
+    column-gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.banner-info{
+    padding-left: 80px;
+}
+.banner .top-title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin: 0%;
+}
+.banner .top-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.banner-button button{
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    border: none;
+}
+.banner-button button a{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.player img{
+    position: relative;
+    width: 581px;
+    height: 613px;
+    padding-top: 33px;
+    padding-right: 80px;
+}
