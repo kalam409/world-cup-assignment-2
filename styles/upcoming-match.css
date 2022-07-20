@@ -268,3 +268,45 @@ section > hr{
     font-size: 20px;
 }
 /* footer section end */
+/*-----------
+Media Quaries
+-------------*/
+/* Mobile device */
+@media screen and (max-width: 688px) {
+    .container-1{
+        margin: 20px;
+    }
+    .top-banner{
+        width: 100%;
+    }
+    .banner-detail{
+        flex-direction: column; 
+    }
+    .banner-info{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    .banner-button{
+        margin-left: 8em;
+    }
+    .container-2, footer{
+        display: none;
+    }
+    .player img{
+        padding-right: 0px;
+        width: 350px;
+        height: 350px;
+        padding-top: 37px;
+    }
+    .banner .top-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 33px;
+        color: #FFFFFF;
+        margin: 0%;
+    }
+}
+/* Mobile device end */
