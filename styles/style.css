@@ -6,7 +6,8 @@ body{
     font-family: 'Poppins', sans-serif;
     margin-left: 6em;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 120px;
+
 }
 /* Top-banner Section---------------------
     The Greatest show on the earth (Start)
@@ -205,3 +206,35 @@ body{
     color: rgba(22, 22, 22, 0.7);
 }
 /* blog page selection (container-2)-end*/
+/* footer section */
+footer{
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.footer-title > h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section > hr{
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-information{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    margin-top: 40px;
+}
+.footer-information > p > a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+}
