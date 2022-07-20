@@ -4,22 +4,18 @@
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
+    margin-left: 6em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-/* Top-banner Section The Greatest show on the earth */
-/* .container-1{
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-} */
+/* Top-banner Section---------------------
+    The Greatest show on the earth (Start)
+------------------------------------------*/
 .top-banner{
     width: 1240px;
     height: 646px;
     background-color: #161616;
     border-radius: 30px;
-    margin-left: 5.5em;
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 .banner-detail{
     display: flex;
@@ -43,6 +39,11 @@ body{
     color: #FFFFFF;
 }
 .banner-button button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    column-gap: 1em;
     width: 187px;
     height: 56px;
     background: #DD0000;
@@ -50,10 +51,14 @@ body{
     border: none;
 }
 .banner-button button a{
+    display: block;
     font-weight: 400;
     font-size: 18px;
     color: white;
     text-decoration: none;
+}
+.banner-button button #watch{
+    padding-bottom: 3px;
 }
 .player img{
     position: relative;
@@ -62,3 +67,141 @@ body{
     padding-top: 33px;
     padding-right: 80px;
 }
+/* blog page selection (container-2)-start*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 5em;
+    margin-top: 130px;
+}
+.select-page{
+    position: relative;
+    width: 254px;
+    height: 241px;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 30px;
+}
+.blog-page{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+.upcoming-button #upcoming{
+    width: 252px;
+    width: 252px;
+    height: 64px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+.upcoming-button #upcoming a{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+    text-decoration: none;
+}
+.all-group-button #all-group{
+    width: 252px;
+    height: 64px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+.all-group-button #all-group a{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+    text-decoration: none;
+}
+.blog-button #blog-button{
+    width: 252px;
+    height: 64px;
+    background: #DD0000;
+    border-radius: 10px;
+    border: none;
+}
+.blog-button #blog-button a{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+/* multi-blog part */
+.multi-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.blogs{
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 290px;
+    height: 395px;
+}
+.blog-thumbnail img{
+    position: relative;
+    width: 290px;
+    height: 175px;
+    margin: 0%;
+}
+.blog-details{
+    padding: 20px;
+}
+.detail-button button{
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.detail-button a{
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+}
+.detail-info .info-title{
+    font-weight:500;
+    font-size: 18px;
+    color: #161616;
+    margin-bottom: 0%;
+}
+/* times-comments */
+.times-comments{
+    display: flex;
+    column-gap: 30px;
+}
+/* time-info */
+.time, .comment{
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    margin: 0%;
+}
+.time .fa-clock{
+    font-weight: 400;
+    font-size: 16px;
+}
+.time .duration{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
+}
+/* comment-info */
+.comment .fa-comment-dots{
+    font-weight: 400;
+    font-size: 16px;
+}
+.comment .message{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
+}
+/* blog page selection (container-2)-end*/
