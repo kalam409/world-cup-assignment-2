@@ -132,6 +132,20 @@ body{
     color: #161616;
     text-decoration: none;
 }
+.all-group-button:hover #all-group{
+    width: 252px;
+    height: 64px;
+    background-color: #DD0000;
+    border-radius: 10px;
+    border: none;
+}
+.all-group-button #all-group:hover a{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
 .blog-button #blog-button{
     width: 252px;
     height: 64px;
