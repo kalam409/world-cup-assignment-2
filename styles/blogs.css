@@ -6,6 +6,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+/* @media screen and (max-width: 479px) {
+    .banner-detail{
+        flex-direction: column-reverse;
+    }
+} */
 /* Top-banner Section---------------------
     The Greatest show on the earth (Start)
 ------------------------------------------*/
@@ -25,6 +30,10 @@ body{
     column-gap: 1em;
     justify-content: center;
     align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center; */
 }
 .banner-info{
     padding-left: 80px;
@@ -107,6 +116,23 @@ body{
     color: #161616;
     text-decoration: none;
 }
+/* hover upcoming*/
+.upcoming-button:hover #upcoming{
+    width: 252px;
+    width: 252px;
+    height: 64px;
+    background: #DD0000;
+    border-radius: 10px;
+    border: none;
+}
+.upcoming-button #upcoming:hover a{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+/* hover upcoming end */
 .all-group-button #all-group{
     width: 252px;
     height: 64px;
@@ -237,5 +263,16 @@ section > hr{
     font-weight: 500;
     font-size: 16px;
     color: #B9B9B9;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    column-gap: 1em;
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 /* footer section end */
