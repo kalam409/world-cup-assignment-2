@@ -4,14 +4,16 @@
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    margin-left: 6em;
-    margin-top: 2em;
-    margin-bottom: 120px;
-
+    margin: 0%;
 }
 /* Top-banner Section---------------------
     The Greatest show on the earth (Start)
 ------------------------------------------*/
+.container-1, .container-2{
+    margin-left: 6em;
+    margin-top: 2em;
+    margin-bottom: 120px;
+}
 .top-banner{
     width: 1240px;
     height: 646px;
@@ -208,8 +210,6 @@ body{
 /* blog page selection (container-2)-end*/
 /* footer section */
 footer{
-    width: 100%;
-    height: 444px;
     background-color: #161616;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -219,7 +219,7 @@ footer{
     font-size: 40px;
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 section > hr{
     width: 1320px;
@@ -227,10 +227,10 @@ section > hr{
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-information{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-items: center;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    column-gap: 4em;
 }
 .footer-information > p > a{
     text-decoration: none;
@@ -238,3 +238,4 @@ section > hr{
     font-size: 16px;
     color: #B9B9B9;
 }
+/* footer section end */
