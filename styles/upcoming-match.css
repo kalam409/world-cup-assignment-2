@@ -227,6 +227,23 @@ body{
     margin: 0%;
     padding-top: 10px;
 }
+.view-all{
+    margin-left: 35em;
+    margin-top: 3em;
+}
+.view-all #view-all{
+    width: 131px;
+    height: 47px;
+    background: #DD0000;
+    border-radius: 5px;
+    border: none;
+}
+.view-all #view-all a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
 /* blog page selection (container-2)-end*/
 /* footer section */
 footer{
@@ -332,6 +349,9 @@ Media Quaries
     .multi-blog{
         grid-template-columns: repeat(1, 1fr);
     }
+    .view-all{
+        display: none;
+    }
     footer hr{
         width: 280px;
     }
@@ -342,3 +362,87 @@ Media Quaries
     }
 }
 /* Mobile device end */
+/* Tablet Device responsive start */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .container-1{
+        margin: 0%;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        width: 602px;
+        height: 180px;
+    }
+    .select-page{
+        background-color: transparent;
+        padding: 0%;
+        height: 175px;
+    }
+    .upcoming-button{
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        width: 230px;
+    }
+    .all-group-button{
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        width: 230px;
+    }
+    .blog-button{
+        width: 230px;
+    }
+    .blog-page{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+        row-gap: none;
+        margin-left: 36px;
+        margin-right: 90px;
+    }
+    .multi-blog{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top-banner{
+        width: 70vh;
+        height: 45vh;
+        margin: 1.5em;
+        background-repeat: no-repeat;
+    }
+    .banner-info{
+        padding-left: 3em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    .banner .top-title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .player{
+        margin: 0%;
+    }
+    .player img{
+        width: auto;
+        height: auto;
+        padding-top: 120px;
+        padding-right: 30px;
+    }
+    .view-all{
+        margin-left: 15em;
+        margin-top: 38em;
+    }
+    footer{
+        margin-top: 0em;
+    }
+    .footer-information{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+/* Tablet Device responsive end */
+/* Laptops and Desktop device start */
+@media screen and (max-width: 2000px) and (min-width: 769px) {
+    .view-all{
+        display: none;
+    }
+}
+/* Laptops and Desktop device end */
