@@ -31,10 +31,6 @@ body{
     column-gap: 1em;
     justify-content: center;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center; */
 }
 .banner-info{
     padding-left: 80px;
@@ -62,6 +58,23 @@ body{
     background: #DD0000;
     border-radius: 5px;
     border: none;
+}
+.animation, .animation-arrow{
+    transition: all 0.5s;
+}
+.animation a, .animation-arrow{
+    transition: 0.5s;
+}
+.animation:hover a, .animation-arrow{
+    padding-right: 25px;
+}
+.animation:hover a, .animation-arrow:after{
+    right: 0;
+}
+.animation a, .animation-arrow:after{
+    transition: 0.5s;
+    right: -20px;
+    transition: 0.5s;
 }
 .banner-button button a{
     display: block;
