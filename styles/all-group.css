@@ -124,7 +124,8 @@ body{
     width: 252px;
     width: 252px;
     height: 64px;
-    background: white;
+    /* background-color: white; */
+    background: #DD0000;
     border-radius: 10px;
     border: none;
 }
@@ -132,27 +133,14 @@ body{
     display: block;
     font-weight: 500;
     font-size: 20px;
-    color: #161616;
+    /* color: #161616; */
+    color: white;
     text-decoration: none;
 }
 .all-group-button #all-group{
     width: 252px;
     height: 64px;
-    background-color: #DD0000;
-    border-radius: 10px;
-    border: none;
-}
-.upcoming-button #upcoming:hover a{
-    display: block;
-    font-weight: 500;
-    font-size: 20px;
-    color: #161616;
-    text-decoration: none;
-}
-.all-group-button:hover #all-group{
-    width: 252px;
-    height: 64px;
-    background-color: #DD0000;
+    background-color: white;
     border-radius: 10px;
     border: none;
 }
@@ -160,7 +148,7 @@ body{
     display: block;
     font-weight: 500;
     font-size: 20px;
-    color: white;
+    color: #161616;
     text-decoration: none;
 }
 .all-group-button:hover #all-group{
